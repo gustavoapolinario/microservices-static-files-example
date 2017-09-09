@@ -1,0 +1,7 @@
+{
+  "name": "static-files-to-microservices-nodejs-handlebars-frontend",
+  "dependencies": {
+    "font-awesome": "fontawesome#4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}
