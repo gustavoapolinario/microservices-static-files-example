@@ -20,6 +20,7 @@ RUN apt-get update && apt-get upgrade -y \
 
 RUN mkdir /app
 
+COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=0 /app /app
 COPY src /app/src
 
